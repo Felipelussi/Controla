@@ -1,0 +1,99 @@
+.App{
+  background-color: rgb(190, 190, 190);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  padding: 0 1em;
+  background-color: rgb(16, 160, 207);
+  color: white;
+  flex-grow: 0;
+}
+
+.navElement{
+  margin: 0 1em;
+  font-size: 1.2em;
+  font-weight: 500;  
+}
+
+.contentSection{
+  display: flex; 
+  flex-grow: 1;
+  
+  
+}
+
+
+.addSection{ 
+ 
+  border: 1px solid rgb(16, 160, 207);
+  border-radius: 10px;
+  padding: 1em;
+  margin: 5%;
+  text-align: center;
+
+  
+}
+
+.addButton{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    background-color: rgb(16, 160, 207);
+    margin: 1em 1em 0 1em;    
+    border-radius: 50px;
+    border: 1px solid transparent;
+    width: 80%;
+
+}
+
+.addButton:hover{
+  color: rgb(16, 160, 207);
+  background-color: white;
+  border: 1px solid rgb(16, 160, 207);
+  cursor: pointer;
+
+}
+
+.contentBox{
+
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  margin: 1em;
+  
+}
+
+.contentBox1{
+  width: 80%;
+}
+
+.contentBox2{
+  width: 20%;
+}
+
+table{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h2{
+  margin: 1em 0 2em 1em
+}
+
+input{
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  display: block;
+  margin: 0 auto;
+  height: 2em;
+  width: 80%;
+  text-align: center;
+}
